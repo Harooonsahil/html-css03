@@ -1,0 +1,80 @@
+.box-1{
+    border: solid;
+    width: 400px;
+    height: 500px;
+    background-image: url(./images/background-image.webp);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.box-1:hover{
+    border-radius: 100px;
+    transition-duration: 2s;
+}
+.box-2{
+    border: solid;
+    width: 400px;
+    height: 500px;
+    position: relative;
+    left: 400px;
+    bottom: 504px;
+    background-color: rgb(236, 225, 212);
+}
+.box-2:hover{
+    border-radius: 100px;
+    transition-duration: 2s;
+}
+.main-heading{
+    color: white;
+    padding-left: 50px;
+    padding-top: 170px;
+    font-size:50px;
+}
+.login-button{
+    width: 250px;
+    height: 40px;
+}
+#content{
+    padding-left: 20px;
+    word-spacing: 3px;
+    font-size: larger;
+}
+
+#radio-button{
+    display: inline;
+    color: teal;
+    size: 70px;
+}
+#user-name{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+#password{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
+.login{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(87, 115, 188);
+}
+.login:hover{
+    background-color: brown;
+    transition: 2sec;
+}
+#forgot-password{
+    position: relative;
+bottom: 40px;
+left: 220px;
+}
+#sign-up{
+    position: relative;
+    left: 100px;
+    bottom: 40px;
+    color: rgb(31, 31, 110);
+}
+
